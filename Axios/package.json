@@ -1,0 +1,14 @@
+{
+  "name": "axios-jira",
+  "version": "1.0.0",
+  "description": "jira with axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
