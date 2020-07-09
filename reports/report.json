@@ -1,0 +1,106 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Open the page and check title",
+    "line": 1,
+    "id": "open-the-page-and-check-title",
+    "tags": [],
+    "uri": "test\\features\\github.feature",
+    "elements": [
+      {
+        "id": "open-the-page-and-check-title;open-github-page-and-verify-page-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open github page and verify page title",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open \"https://github.com/\" url",
+            "match": {
+              "location": "test\\step_definitions\\browserActions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Page title should be \"The world’s leading software development platform · GitHub\"",
+            "match": {
+              "location": "test\\step_definitions\\browserActions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "open-the-page-and-check-title;open-epam-page-and-verify-page-title",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Open epam page and verify page title",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open \"https://www.epam.com/\" url",
+            "match": {
+              "location": "test\\step_definitions\\browserActions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Page title should be \"EPAM | Enterprise Software Development, Design & Consulting\"",
+            "match": {
+              "location": "test\\step_definitions\\browserActions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
