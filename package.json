@@ -11,6 +11,7 @@
   "author": "EPAM automation lab",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "chai": "^4.2.0",
     "cucumber": "^6.0.5",
     "cucumber-html-reporter": "^5.2.0",
