@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "protractor ./test/config/protractor.config.js",
-    "webdriver-update": "node ./node_modules/protractor/bin/webdriver-manager update",
-    "webdriver-start": "webdriver-manager start"
+    "webdriver-update": "node ./node_modules/protractor/bin/webdriver-manager update",    
+    "post-report": "node ./jira-connector/index.js"
   },
   "author": "EPAM automation lab",
   "license": "ISC",
